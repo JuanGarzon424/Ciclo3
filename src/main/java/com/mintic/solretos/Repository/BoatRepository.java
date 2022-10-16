@@ -13,10 +13,7 @@ import org.springframework.stereotype.Repository;
 
 import com.mintic.solretos.Entidades.Boat;
 
-/**
- *
- * @author luis_
- */
+
 @Repository
 public class BoatRepository {
     @Autowired

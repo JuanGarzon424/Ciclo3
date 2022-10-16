@@ -7,10 +7,6 @@ package com.mintic.solretos.CRUDRepository;
 import com.mintic.solretos.Entidades.Admin;
 import org.springframework.data.repository.CrudRepository;
 
-/**
- *
- * @author luis_
- */
 public interface AdminCRUDRepository extends CrudRepository<Admin, Integer> {
     
 }

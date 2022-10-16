@@ -4,10 +4,6 @@
  */
 package com.mintic.solretos.DTOs;
 
-/**
- *
- * @author luis_
- */
 public class DtoReportStatus {
 
     public DtoReportStatus(Integer completed, Integer cancelled) {

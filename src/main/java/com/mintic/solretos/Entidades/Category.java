@@ -15,10 +15,7 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author luis_
- */
+
 @Entity
 @Table(name="categories")
 public class Category  implements Serializable{

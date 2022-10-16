@@ -7,10 +7,6 @@ package com.mintic.solretos.CRUDRepository;
 import com.mintic.solretos.Entidades.Boat;
 import org.springframework.data.repository.CrudRepository;
 
-/**
- *
- * @author luis_
- */
 public interface BoatCRUDRepository extends CrudRepository<Boat, Integer> {
     
 }

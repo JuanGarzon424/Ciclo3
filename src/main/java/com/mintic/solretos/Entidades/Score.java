@@ -4,10 +4,6 @@
  */
 package com.mintic.solretos.Entidades;
 
-/**
- *
- * @author luis_
- */
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;

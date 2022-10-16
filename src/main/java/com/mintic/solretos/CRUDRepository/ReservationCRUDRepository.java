@@ -8,10 +8,6 @@ import com.mintic.solretos.Entidades.Reservation;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
-/**
- *
- * @author luis_
- */
 public interface ReservationCRUDRepository extends CrudRepository<Reservation, Integer> {
     
     @Query(value="Select count(idReservation) from reservations where status = ?", nativeQuery=true)

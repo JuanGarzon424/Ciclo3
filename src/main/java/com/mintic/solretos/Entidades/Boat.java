@@ -17,10 +17,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/**
- *
- * @author luis_
- */
+
 @Entity
 @Table(name="boats")
 public class Boat  implements Serializable{

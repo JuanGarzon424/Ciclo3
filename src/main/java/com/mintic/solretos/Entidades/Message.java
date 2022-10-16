@@ -14,10 +14,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-/**
- *
- * @author luis_
- */
 @Entity
 @Table(name="messages")
 public class Message  implements Serializable{

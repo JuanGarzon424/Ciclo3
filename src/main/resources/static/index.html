@@ -10,10 +10,12 @@
     <link rel="stylesheet" type="text/css" href="./css/archivo.css"/>
 </head>
 <body>
-	<h1>#Mintic 2022</h1>
-        <div class="container unauthenticated">
-            With GitHub: <a href="/oauth2/authorization/github">click here</a>
-        </div>
+    <br>
+	<center><h1>Entre al siguiente link para autenticar</h1></center>
+        
+        <br><center><div class="container unauthenticated">
+           Login with GitHub: <a href="/oauth2/authorization/github">click here</a>
+        </div></center>
         <div class="container authenticated" style="display:none">
             Logged in as: <span id="user"></span>
                     <a href="./Clientes.html">Ir a Clientes</a>
@@ -23,8 +25,8 @@
 <script type="text/javascript">
     $.get("/user", function(data) {
         $("#user").html(data.name);
-        $(".unauthenticated").hide()
-        $(".authenticated").show()
+        $(".unauthenticated").hide();
+        $(".authenticated").show();
     });
 </script>        
 </html>

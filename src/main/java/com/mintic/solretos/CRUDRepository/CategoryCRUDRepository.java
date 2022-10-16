@@ -7,10 +7,6 @@ package com.mintic.solretos.CRUDRepository;
 import com.mintic.solretos.Entidades.Category;
 import org.springframework.data.repository.CrudRepository;
 
-/**
- *
- * @author luis_
- */
 public interface CategoryCRUDRepository extends CrudRepository<Category, Integer> {
     
 }
